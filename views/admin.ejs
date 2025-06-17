@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Admin Panel</title>
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+  <a href="/logout" class="admin-button">Logout</a>
+
+  <h1>Submit Score</h1>
+  <form method="POST" action="/submit-score" class="admin-form">
+    <select name="team" required>
+      <% teams.forEach(t => { %>
+        <option value="<%= t %>"><%= t %></option>
+      <% }) %>
+    </select>
+    <input type="number" name="points" placeholder="Points" required />
+    <button type="submit">Add Points</button>
+  </form>
+  
+  <form method="POST" action="/reset-scores">
+  <button type="submit" onclick="return confirm('Reset all scores?')">Reset Scores</button>
+</form>
+
+</body>
+</html>

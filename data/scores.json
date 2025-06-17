@@ -1,0 +1,44 @@
+{
+  "Dragons": {
+    "points": 20,
+    "members": [
+      "",
+      ""
+    ]
+  },
+  "Wildcats": {
+    "points": 0,
+    "members": [
+      "",
+      ""
+    ]
+  },
+  "Wolves": {
+    "points": 0,
+    "members": [
+      "",
+      ""
+    ]
+  },
+  "Panthers": {
+    "points": 0,
+    "members": [
+      "",
+      ""
+    ]
+  },
+  "Jaguars": {
+    "points": 0,
+    "members": [
+      "Ashley Dzingai",
+      "Zvikomborero Tagu"
+    ]
+  },
+  "Scorpion": {
+    "points": 120,
+    "members": [
+      "",
+      ""
+    ]
+  }
+}
