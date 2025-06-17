@@ -6,10 +6,10 @@
 </head>
 <body>
   <h1>🏆 Game Night Leaderboard</h1>
-  <h2>#USAPROCKS!!!</h2>
+  <h2>🔥#USAPROCKS!!!🔥</h2>
   <div class="leaderboard">
     <% teams.forEach((team, index) => { %>
-      <div class="team <%= index == 0 ? 'first' : index == 1 ? 'second' : index == 2 ? 'third' : '' %>">b        
+      <div class="team <%= index == 0 ? 'first' : index == 1 ? 'second' : index == 2 ? 'third' : '' %>">     
         <h2><a href="/team/<%= team[0] %>"><%= team[0] %></a></h2>
         <p><%= team[1].points %> points</p>
       </div>
@@ -18,6 +18,6 @@
   
   <a href="/admin" class="admin-button">Admin Login</a>
   <footer>
-    <p>Created by with love by wish <a href="www.wish.com"></a></p>
+    <p>Created with love by wish❤️ <a href="www.wish.com"></a></p>
 </body>
 </html>
